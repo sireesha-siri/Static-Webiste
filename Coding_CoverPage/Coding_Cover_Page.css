@@ -1,0 +1,33 @@
+/* styles.css */
+.sentence-container {
+    width: 300px; /* Adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.sentence {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: showSentence 3s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes showSentence {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    20% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    80% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
