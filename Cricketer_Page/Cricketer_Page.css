@@ -16,3 +16,31 @@
     background-color: #e6f6ff;
     padding: 20px;
 }
+.bottom-heading{
+    color: #323f4b;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-heading{
+    color: #323f4b;
+    font-size: 20px;
+}
+.card-description{
+    color: #888888;
+    font-size: 20px;
+}
+.sub-card{
+    padding: 7px;
+    margin: 10px;
+}
+.sub-card-description{
+    color: #888888;
+    font-size: 12px;
+    width: 100px;
+    font-weight: bold;
+}
